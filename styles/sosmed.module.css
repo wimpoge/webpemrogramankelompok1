@@ -1,0 +1,124 @@
+.wrapper {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  bottom: 5%;
+  overflow: hidden;
+}
+.Instagram{  
+    width: 100px;  
+    height: 40px;  
+    margin: 20px;;   
+    border-radius: 30px;
+  }  
+
+  .Instagram input{  
+     
+    cursor: pointer;  
+    width: 100%;  
+    height: 100%;  
+    z-index: 2;  
+    appearance: none;  
+    -webkit-appearance: none;  
+   
+  }  
+  .Instagram:hover{
+    color: white;
+    
+  
+    
+}
+  .Facebook{  
+    width: 100px;  
+    height: 40px;   
+    margin: 20px;     
+    border-radius: 30px;
+  }  
+
+
+
+.Facebook input{  
+    position: absolute;  
+    cursor: pointer;  
+    width: 100%;  
+    height: 100%;  
+    z-index: 2;  
+    appearance: none;  
+    -webkit-appearance: none;  
+   
+  }  
+
+.Facebook:hover {
+    color: white;
+}
+.Twitter{  
+    width: 100px;  
+    height: 40px;  
+     
+    margin: 20px;     
+    border-radius: 30px;
+  }  
+
+.Twitter input{  
+     
+    cursor: pointer;  
+    width: 100%;  
+    height: 100%;  
+    z-index: 2;  
+    appearance: none;  
+    -webkit-appearance: none;  
+   
+  } 
+
+.Twitter:hover {
+    
+    color: white;
+}
+
+.Telegram{  
+  width: 100px;  
+  height: 40px;  
+   
+  margin: 20px;     
+  border-radius: 30px;
+}  
+
+.Telegram input{  
+   
+  cursor: pointer;  
+  width: 100%;  
+  height: 100%;  
+  z-index: 2;  
+  appearance: none;  
+  -webkit-appearance: none;  
+ 
+} 
+
+.Telegram:hover {
+  
+  color: white;
+}
+
+.Home{  
+  width: 130px;  
+  height: 40px;  
+  display: absolute;
+  justify-content: center;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  margin-left: 35%;
+}  
+
+.Home input{  
+   
+  cursor: pointer;  
+  width: 100%;  
+  height: 100%;  
+  z-index: 2;  
+  appearance: none;  
+  -webkit-appearance: none;  
+ 
+}  
+.Home:hover{
+  color: white;
+}
