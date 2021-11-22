@@ -1,6 +1,8 @@
 import styles from '../styles/about.module.css'
 import sosmed from '../styles/sosmed.module.css'
 import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 
 
@@ -17,7 +19,7 @@ const Evander = () => {
      <div className={styles.container}>
         
      <div className={styles.img} >
-         <img src="/WhatsApp Image 2021-11-21 at 16.48.32.jpeg" width="200px" height="250px" />
+         <Image src="/WhatsApp Image 2021-11-21 at 16.48.32.jpeg" width="200px" height="250px" alt="Foto" />
          </div>
         <div className={styles.card2}>
             
@@ -50,7 +52,7 @@ const Evander = () => {
                 </button>
                 <br/>
                 <button className={sosmed.Home}>
-                 <a href="/" style={{ textDecoration: 'none' }}><i className="bi bi-house"></i> Halaman Utama</a>
+                 <Link href="/" style={{ textDecoration: 'none' }}><a><i className="bi bi-house"></i> Halaman Utama</a></Link>
                 </button>  
                 </div>
     </div>

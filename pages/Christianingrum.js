@@ -36,7 +36,6 @@ const Christianingrum = () => {
                  
                  
     </div>
-    <img src={'../public/24118357.jpg'} alt=""/>erg
   </>
       );
 }
