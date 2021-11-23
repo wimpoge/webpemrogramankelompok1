@@ -1,7 +1,7 @@
 const Footer = () => {
     return ( 
         <footer>
-            Copyright 2021 | Kelompok #
+           &copy; Copyright 2021 | Kelompok 1 Pemrograman Web
         </footer>
      );
 }
