@@ -36,20 +36,21 @@ const Rafli = () => {
         
         </div>
         <div className={sosmed.wrapper}>
-            <button className={sosmed.Instagram}>
+            <div className ={sosmed.ul}>
+            <li className={sosmed.Instagram}>
                  <a href="https://www.instagram.com/pli.__/" style={{ textDecoration: 'none' }} ><i className="bi bi-instagram"></i> Instagram</a>
-                 </button>
-            <button className={sosmed.Facebook}>
+                 </li>
+            <li className={sosmed.Facebook}>
                  <a href="https://www.facebook.com/profile.php?id=100007243809678" style={{ textDecoration: 'none' }} ><i className="bi bi-facebook"></i> Facebook</a>
-                </button>
-            <button className={sosmed.Telegram}>
+                </li>
+            <li className={sosmed.Telegram}>
                  <a href="https://t.me/DollFaceKillah" style={{ textDecoration: 'none' }} ><i className="bi bi-telegram"></i> Telegram</a>
-                </button>
-                <br/>
-                <button className={sosmed.Home}>
-                 <Link href="/" style={{ textDecoration: 'none' }}><a><i className="bi bi-house"></i> Halaman Utama</a></Link>
-                </button>  
-               
+                </li>
+                <br />   
+            <li className={sosmed.Home}>
+                 <Link href="/" style={{ textDecoration: 'none' }}><a style={{ textDecoration: 'none' }}><i className="bi bi-house"></i> Halaman Utama</a></Link>
+                </li>  
+            </div> 
         </div>
                  
         
