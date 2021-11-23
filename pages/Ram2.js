@@ -18,19 +18,25 @@ const Ram2 = () => {
          <h3 className={styles.name}>Muhamad Rizki Ramadhan</h3>
          </div>
         <div className={styles.card2}>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+        <h3>Pengalaman Kerja</h3>
+            <li>(Magang) Bristol Asia Technology Maret-May 2017 </li>
+            <br/>
 
+            <h3>Sertifikat</h3>
+                <a href="/WhatsApp Image 2021-11-23 at 20.10.11.jpeg"><h2>Online Course “Cisco Superlab Nixtrain” - 2020</h2></a>
+                <h2>Mikrotik Certified Network Associate (MTCNA) - 2017</h2>
+                    
         </div>
         <div className={sosmed.wrapper}>
             <div className ={sosmed.ul}>
             <li className={sosmed.Instagram}>
-                 <a href="#" style={{ textDecoration: 'none' }} ><i className="bi bi-instagram"></i> Instagram</a>
+                 <a href="http://www.instagram.com/rizki_ramram" style={{ textDecoration: 'none' }} ><i className="bi bi-instagram"></i> Instagram</a>
                  </li>
             <li className={sosmed.Facebook}>
-                 <a href="#" style={{ textDecoration: 'none' }} ><i className="bi bi-facebook"></i> Facebook</a>
+                 <a href="http://www.facebook.com/Rizki123456987" style={{ textDecoration: 'none' }} ><i className="bi bi-facebook"></i> Facebook</a>
                 </li>
             <li className={sosmed.Telegram}>
-                 <a href="#" style={{ textDecoration: 'none' }} ><i className="bi bi-telegram"></i> Telegram</a>
+                 <a href="http://t.me/rizkiramram" style={{ textDecoration: 'none' }} ><i className="bi bi-telegram"></i> Telegram</a>
                 </li>
                 <br />   
             <li className={sosmed.Home}>

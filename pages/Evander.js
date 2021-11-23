@@ -44,13 +44,13 @@ const Evander = () => {
         <div className={sosmed.wrapper}>
             <div className ={sosmed.ul}>
             <li className={sosmed.Instagram}>
-                 <a href="#" style={{ textDecoration: 'none' }} ><i className="bi bi-instagram"></i> Instagram</a>
+                 <a href="http://www.instagram.com/evandermanurung/" style={{ textDecoration: 'none' }} ><i className="bi bi-instagram"></i> Instagram</a>
                  </li>
-            <li className={sosmed.Facebook}>
+            {/* <li className={sosmed.Facebook}>
                  <a href="#" style={{ textDecoration: 'none' }} ><i className="bi bi-facebook"></i> Facebook</a>
-                </li>
+                </li> */}
             <li className={sosmed.Telegram}>
-                 <a href="#" style={{ textDecoration: 'none' }} ><i className="bi bi-telegram"></i> Telegram</a>
+                 <a href="http://t.me/evandermanurung" style={{ textDecoration: 'none' }} ><i className="bi bi-telegram"></i> Telegram</a>
                 </li>
                 <br />   
             <li className={sosmed.Home}>
