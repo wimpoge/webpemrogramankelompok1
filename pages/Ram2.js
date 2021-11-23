@@ -1,5 +1,6 @@
 import styles from '../styles/about.module.css'
 import sosmed from '../styles/sosmed.module.css'
+import Link from 'next/link'
 
 
 const Ram2 = () => {
@@ -18,16 +19,22 @@ const Ram2 = () => {
 
         </div>
         <div className={sosmed.wrapper}>
-        <button className={sosmed.Instagram}>
-                 <a href="#" style={{ textDecoration: 'none' }}><i className="bi bi-instagram"></i> Instagram</a>
-                 </button>
-            <button className={sosmed.Facebook}>
-                 <a href="#" style={{ textDecoration: 'none' }}><i className="bi bi-facebook"></i> Facebook</a>
-                </button>
-            <button className={sosmed.Twitter}>
-                 <a href="#" style={{ textDecoration: 'none' }}><i className="bi bi-twitter"></i> Twitter</a>
-                </button>
-        </div>
+            <div className ={sosmed.ul}>
+            <li className={sosmed.Instagram}>
+                 <a href="#" style={{ textDecoration: 'none' }} ><i className="bi bi-instagram"></i> Instagram</a>
+                 </li>
+            <li className={sosmed.Facebook}>
+                 <a href="#" style={{ textDecoration: 'none' }} ><i className="bi bi-facebook"></i> Facebook</a>
+                </li>
+            <li className={sosmed.Telegram}>
+                 <a href="#" style={{ textDecoration: 'none' }} ><i className="bi bi-telegram"></i> Telegram</a>
+                </li>
+                <br />   
+            <li className={sosmed.Home}>
+                 <Link href="/" style={{ textDecoration: 'none' }}><a style={{ textDecoration: 'none' }}><i className="bi bi-house"></i> Halaman Utama</a></Link>
+                </li>  
+            </div> 
+    </div>
                  
                  
     </div>
