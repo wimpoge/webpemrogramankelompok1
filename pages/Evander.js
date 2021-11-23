@@ -20,6 +20,7 @@ const Evander = () => {
         
      <div className={styles.img} >
          <Image src="/WhatsApp Image 2021-11-21 at 16.48.32.jpeg" width="200px" height="250px" alt="Foto" />
+         <h3 className={styles.name}>Evander</h3>
          </div>
         <div className={styles.card2}>
             

@@ -18,7 +18,7 @@ const Christianingrum = () => {
      <div className={styles.container}>
      <div className={styles.img} >
          <Image src="/WhatsApp Image 2021-11-21 at 17.08.14.jpeg" width="200px" height="250px" alt="Foto" />
-         <h3 className={styles.name}>Muhamad Zukri Syahputra</h3>
+         <h3 className={styles.name}>Christianingrum</h3>
          </div>
      
 
