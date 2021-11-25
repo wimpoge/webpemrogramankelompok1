@@ -9,6 +9,7 @@
     align-items: center;
     width: auto;
     height: auto;
+    ;
   }
 
 .card2 {
@@ -21,15 +22,16 @@
     border: 1px solid #eaeaea;
     transition: color 0.15s ease, border-color 0.15s ease;
     width: 80%;
-    
+    color: white;
+
   }
   
-  .card2:hover,
+  /* .card2:hover,
   .card2:focus,
   .card2:active {
     color: white;
     border-color: white;
-  }
+  } */
   
   .card2 h2 {
     margin: 0 0 1rem 0;
