@@ -33,6 +33,7 @@ const Rafli = () => {
         <a href="/21_MUHAMAD RAFLI.jpg" ><h2>Programmer Lab. Psikologi Dasar – 2020 & 2021</h2></a>
         <a href="https://drive.google.com/file/d/1OJkX_uSeGw7uF_pkNL0VObxYWJDuoPK8/view?usp=sharing" ><h2>Online Course “Web Development” - 2021</h2></a>
         <a href="https://drive.google.com/file/d/1szJHUmjtKpMxx50hR0eqbijp0iVoMvXa/view?usp=sharing" ><h2>Belajar Dasar Pemrograman Web - Dicoding</h2></a>
+        <a href="https://www.freecodecamp.org/certification/pli/responsive-web-design" ><h2>Responsive Web Design - FreeCodeCamp</h2></a>
         
         </div>
         <div className={sosmed.wrapper}>
