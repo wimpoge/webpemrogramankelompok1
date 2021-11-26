@@ -1,5 +1,6 @@
 import styles from '../styles/about.module.css'
 import sosmed from '../styles/sosmed.module.css'
+import bg from '../styles/Home.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -16,7 +17,7 @@ const Christianingrum = () => {
         
  
      <div className={styles.container}>
-     <div className={styles.img} >
+     <div className={bg.bgimg} >
          <Image src="/WhatsApp Image 2021-11-21 at 17.08.14.jpeg" width="200px" height="250px" alt="Foto" />
          <h3 className={styles.name}>Christianingrum</h3>
          </div>

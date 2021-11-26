@@ -1,5 +1,6 @@
 import styles from '../styles/about.module.css'
 import sosmed from '../styles/sosmed.module.css'
+import bg from '../styles/Home.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -15,10 +16,13 @@ const Rafli = () => {
       
  
      <div className={styles.container}>
-     <div className={styles.img} >
+         
+    
+     <div className={bg.bgimg}>
          <Image src="/WhatsApp Image 2021-11-23 at 18.51.15.jpeg" width="230px" height="230px" alt="Foto" />
          <h3 className={styles.name}>Muhamad Rafli</h3>
          </div>
+        
 
         <div className={styles.card2}>
         <h3>Pengalaman Kerja</h3>

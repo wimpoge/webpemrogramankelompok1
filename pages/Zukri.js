@@ -1,5 +1,6 @@
 import styles from '../styles/about.module.css'
 import sosmed from '../styles/sosmed.module.css'
+import bg from '../styles/Home.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -14,10 +15,11 @@ const Zukri = () => {
       
  
      <div className={styles.container}>
-     <div className={styles.img} >
+     <div className={bg.bgimg} >
          <Image src="/WhatsApp Image 2021-11-21 at 16.46.57.jpeg" width="200px" height="200px" alt="Foto" />
          <h3 className={styles.name}>Muhamad Zukri Syahputra</h3>
          </div>
+
         <div className={styles.card2}>
         <h3>Pengalaman Kerja</h3>
             <li>(Magang) Haka Aksesoris PC 2017-2018 </li>

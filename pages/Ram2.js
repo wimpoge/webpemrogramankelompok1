@@ -1,5 +1,6 @@
 import styles from '../styles/about.module.css'
 import sosmed from '../styles/sosmed.module.css'
+import bg from '../styles/Home.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -13,10 +14,11 @@ const Ram2 = () => {
     
 
      <div className={styles.container}>
-     <div className={styles.img} >
-         <Image src="/WhatsApp Image 2021-11-21 at 16.46.46.jpeg" width="200px" height="250px" alt="Foto" />
+     <div className={bg.bgimg} >
+         <Image src="/WhatsApp Image 2021-11-21 at 16.46.46.jpeg" width="200px" height="235px" alt="Foto" />
          <h3 className={styles.name}>Muhamad Rizki Ramadhan</h3>
          </div>
+
         <div className={styles.card2}>
         <h3>Pengalaman Kerja</h3>
             <li>(Magang) Bristol Asia Technology Maret-May 2017 </li>
