@@ -120,6 +120,17 @@
   margin-left: 0.5rem;
 }
 
+/* bg-img */
+.bgimg {
+  height: auto;
+  width: auto;
+  border: #eaeaea solid 10px;
+  border-radius: 1rem;
+  justify-content: center;
+  background-color: rgb(110, 108, 224);
+}
+
+
 
 
 @media (max-width: 600px) {

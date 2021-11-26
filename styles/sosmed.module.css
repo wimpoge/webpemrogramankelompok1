@@ -1,9 +1,19 @@
 .wrapper {
-  position: absolute;;
-  align-items: center;
-  bottom: 10%;
-  justify-content: space-between;
-  
+
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(255, 196, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  bottom: 0.5rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 70%;
+  padding: 20px;
+  text-align: center;
+
   
   
 }
@@ -12,18 +22,19 @@ display: flex;
 list-style: none;
 justify-content: space-between;
 width: 100%;
-gap: 10px;
-height: 50px;
+z-index: 4;
+
 
 }
 
-
-
+.li {
+  color: black;
+}
 
 
 .Instagram{  
   
-    
+    z-index: 2;
     
   }  
 
@@ -106,3 +117,4 @@ height: 50px;
     
   color: white;
 }
+
