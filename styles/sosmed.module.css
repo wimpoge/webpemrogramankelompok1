@@ -1,7 +1,6 @@
 .wrapper {
-
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(255, 196, 0, 0.4); /* Black w/opacity/see-through */
+  background-color: rgb(0, 0, 0); 
+  background-color: rgba(255, 196, 0, 0.4); 
   color: white;
   font-weight: bold;
   border: 3px solid #f1f1f1;
@@ -13,105 +12,31 @@
   width: 70%;
   padding: 20px;
   text-align: center;
-
-  
-  
 }
+
 .ul {
 display: flex;
 list-style: none;
 justify-content: space-between;
 width: 100%;
 z-index: 4;
-
-
 }
-
-.li {
-  color: black;
-}
-
-
-.Instagram{  
   
-    z-index: 2;
-    
-  }  
-
-  
-  .Instagram a:hover{  
-    
+.Instagram a:hover{   
     color: white;
   }
-    
-    
-    
-  
-    
 
-  .Facebook{  
-      
-   
-  }  
-
-
-
-.Facebook input{  
-   
-   
-  }  
-
-.Facebook a:hover{  
-    
-  color: white;
-}
-.Twitter{  
-
-  }  
-
-.Twitter input{  
-     
-    cursor: pointer;  
-    width: 100%;  
-    height: 100%;  
-    z-index: 2;  
-    appearance: none;  
-    -webkit-appearance: none;  
-   
-  } 
-
-.Twitter a:hover{  
-    
+.Facebook a:hover{    
   color: white;
 }
 
-.Telegram{  
-   
-
-}  
-
-.Telegram input{  
-   
-  cursor: pointer;  
-  width: 100%;  
-  height: 100%;  
-  z-index: 2;  
-  appearance: none;  
-  -webkit-appearance: none;  
- 
-} 
+.Twitter a:hover{     
+  color: white;
+}
 
 .Telegram a:hover{  
-    
   color: white;
 }
-
-.Home{  
-  text-decoration: none;
-  
-  
-}  
-
 
 .Home a:hover{  
     
