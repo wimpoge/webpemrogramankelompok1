@@ -25,7 +25,11 @@
   border: #eaeaea solid 10px;
   border-radius: 1rem;
   justify-content: center;
-  background-color: rgb(110, 108, 224);
+  background: 
+  linear-gradient(rgb(207, 207, 207), transparent),
+  linear-gradient(to top left, rgb(255, 174, 0), transparent),
+  linear-gradient(to top right, rgb(44, 100, 255), transparent);
+  background-blend-mode: screen;
 }
 
 
